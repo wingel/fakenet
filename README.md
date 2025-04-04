@@ -1,8 +1,9 @@
-# fakenet - a fake network device
+# fakenet - a fake network device driver for linux
 
-A fake network device driver which supports ethtool and is linked to a
-PCI device.  The PCI device it will be linked to is the first PCI
-device in the system, usually the host bridge.
+This driver creates one or more fake network devices.  The devices
+supports ethtool and are linked to a PCI device.  The PCI device the
+devices will be linked to is the first PCI device of the system,
+usually the host bridge.
 
 ## Install driver
 
